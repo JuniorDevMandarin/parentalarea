@@ -149,7 +149,7 @@
     .dropdown1 {
         position: absolute;
         margin-left: 1222px;
-        margin-top: -412px;
+        margin-top: -650px;
             
     }
         
@@ -382,6 +382,58 @@
     width: 558px;
 
 }
+.new_square{
+    position: absolute;
+    margin-top: -548px;
+    margin-left: 433px;
+    display: flex;
+    width: 727px;
+    height: 161px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #A563FF;
+    background: var(--global-gray-gray-10, #FAF7F5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.grade{
+    color: var(--specific-content-content-1, #21222D);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    margin-top: -22px;
+}
+.buttons{
+    display: flex;
+    position: absolute;
+    margin-left: -2px;
+    margin-top: 82px;
+    gap: 416px;
+}
+.buttons_b{
+    display: flex;
+    width: 135px;
+    height: 43.661px;
+    padding: 10px 14px 9.661px 15px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--global-orange-orange-20, #FCD4B8);
+    color: var(--specific-content-content-1, #21222D);
+    text-align: center;
+    /* Buttons/Button L */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
 </style>
 
 
@@ -445,12 +497,23 @@
     </div>
     <div class="row justify-content-sm-center pt-3" style='padding-top: 25rem!important;'>
         <div class="col-sm-10 pb-5">
-
-            <div class="row mt-5">
-                <div class="col-12 col-sm-8 text-big-title-grotesc text-start color-713EDD mb-3 mb-sm-0" style='position: absolute; margin-top: -425px;'>[Kid’s name] info:
+            
+            <div class="row mt-5" style="margin-top: 15rem!important;">
+                <div class="col-12 col-sm-8 text-big-title-grotesc text-start color-713EDD mb-3 mb-sm-0" style='position: absolute; margin-top: -650px;'>[Kid’s name] info:
                     
                 </div>
-                
+                <div class="col-12 col-md-6" > 
+                    <div class="new_square">
+                            <div class="grade">Current Grade: [#Level] 
+                           
+                                <br>Congratulations! You are eligible to jump to the next Grade. </br>Do you want to upgrade now?</p>
+                            </div>
+                            <div class="buttons">
+                                <a href="#" class="buttons_b">Decide Later</a>
+                                <a href="#" class="buttons_b">Upgrade Now</a>
+                            </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-12 col-md-6" style='position: absolute; margin-top:-312px; width: 656px;'>
